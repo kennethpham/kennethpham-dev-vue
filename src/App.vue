@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import { RouterView } from "vue-router";
-import Navbar from "@/components/Navbar.vue";
+import NavBar from "@/components/NavBar.vue";
 
 document.body.style.background = "#1F2937";
 </script>
 
 <template>
   <div class="font-mono">
-    <Navbar />
+    <NavBar />
     <RouterView />
   </div>
 </template>

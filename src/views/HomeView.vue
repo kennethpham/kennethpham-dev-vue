@@ -13,23 +13,21 @@ onMounted(() => {
     <div class="flex text-white justify-center p-4">
       Welcome to my Personal Site!
     </div>
-    <div class="flex text-white justify-center">About me:</div>
-    <div class="p-5">
-      <div class="flex text-white justify-center">
-        I graduated from UCSD in 2020 and am currently working as a Jr. Software
-        Engineer at
-        <span>&nbsp;</span>
-        <span>
-          <a class="hover:bg-gray-600" href="https://www.moesol.com/">
-            Moebius Solutions, Inc.
-          </a>
-        </span>
-      </div>
-      <span class="flex justify-center">&nbsp;</span>
-      <div class="flex text-white justify-center">
+    <div class="flex text-white justify-center px-5 pb-4">About me:</div>
+    <div class="flex justify-center px-5">
+      <p class="text-white">
+        I graduated from UCSD in 2020 and am currently working as a Jr.
+        Software Engineer at
+        <a class="hover:bg-gray-600" href="https://www.moesol.com/">
+          Moebius Solutions, Inc.
+        </a>
+      </p>
+    </div>
+    <div class="flex justify-center px-5">
+      <p class="text-white">
         This site is to show off and host any personal projects that I have
         done.
-      </div>
+      </p>
     </div>
   </main>
 </template>
